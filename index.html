@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8">
+    <title>LooBapBap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Rubik+Dirt&display=swap" rel="stylesheet">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        background-color: #ffffff;
+        color: #222;
+      }
+      /* header css*/
+      *{
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .navbar{
+        background: lightgrey;
+        font-family: calibri;
+        padding: 15px;
+      }
+
+      .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      ul{
+        display: flex;
+        gap: 20px;
+        color: green
+      }
+      li{
+        list-style: none; display: inline-block;
+      }
+      li a{
+        color: black; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+      }
+      
+      .logo a{
+        font-size: 35px;
+        font-weight: 600;
+        color: black;
+      }
+
+      button{
+        padding: 5px 10px;
+      }
+      /* hero css*/
+      .hero {
+      width: 100%;
+      height: 480px;
+      background: url('https://tb-static.uber.com/prod/image-proc/processed_images/1da135bf26a41756712cf78eedfcee93/fb86662148be855d931b37d6c1e5fcbe.jpeg') center/cover no-repeat;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .hero-overlay {
+      background: rgba(0,0,0,0.45);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .hero-text {
+      position: relative;
+      color: white;
+      font-family: 'Rubik Dirt', cursive;
+    }
+
+    .hero-text h1 {
+      font-size: 4em;
+      margin-bottom: 0.2em;
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navdiv">
+        
+        <!-- LEFT SIDE -->
+        <div class="logo"><a href="#">LooBapBap</a></div>
+
+        <!-- RIGHT SIDE -->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <button><a href="#">Sign In</a></button>
+          <button><a href="#">Sign Up</a></button>
+        </ul>
+
+      </div>
+    </nav>
+     <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-text">
+      <p style="font-size:1.4em; letter-spacing:0.1em;">NUMBER 1 KOREAN FUSION FOOD IN CANADA</p>
+      <h1>Welcome to<br>LooBapBap</h1>
+    </div>
+  </section>
+  </body>
+</html>
